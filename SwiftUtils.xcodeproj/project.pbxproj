@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		783302281D0EAB24000A8978 /* String+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783302271D0EAB24000A8978 /* String+Base64.swift */; };
+		7833022A1D0EAB64000A8978 /* String+Manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783302291D0EAB64000A8978 /* String+Manipulation.swift */; };
+		7833022B1D0EABC0000A8978 /* String+Manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783302291D0EAB64000A8978 /* String+Manipulation.swift */; };
+		78379F351D098BFD0072C59D /* String+ManipulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379F341D098BFD0072C59D /* String+ManipulationTests.swift */; };
+		78379F361D098C1A0072C59D /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB84A4F1CE9A66000AA926A /* String+Localized.swift */; };
+		78EE97D81D10361D00581D55 /* String+Base64Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE97D71D10361D00581D55 /* String+Base64Tests.swift */; };
+		78EE97D91D1036CB00581D55 /* String+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783302271D0EAB24000A8978 /* String+Base64.swift */; };
 		AFB84A501CE9A66000AA926A /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB84A4F1CE9A66000AA926A /* String+Localized.swift */; };
 		AFCC7B981CE0EBAE00854013 /* SwiftUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCC7B971CE0EBAE00854013 /* SwiftUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFCC7B9F1CE0EBAE00854013 /* SwiftUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCC7B941CE0EBAE00854013 /* SwiftUtils.framework */; };
@@ -28,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		783302271D0EAB24000A8978 /* String+Base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Base64.swift"; sourceTree = "<group>"; };
+		783302291D0EAB64000A8978 /* String+Manipulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Manipulation.swift"; sourceTree = "<group>"; };
+		78379F341D098BFD0072C59D /* String+ManipulationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ManipulationTests.swift"; sourceTree = "<group>"; };
+		78EE97D71D10361D00581D55 /* String+Base64Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Base64Tests.swift"; sourceTree = "<group>"; };
 		AFB84A4F1CE9A66000AA926A /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 		AFCC7B941CE0EBAE00854013 /* SwiftUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFCC7B971CE0EBAE00854013 /* SwiftUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUtils.h; sourceTree = "<group>"; };
@@ -84,6 +95,8 @@
 				AFCC7BAE1CE0EBEB00854013 /* NSDateComponents+ISO8601.swift */,
 				AFCC7BB11CE0EC0800854013 /* NSScanner.swift */,
 				AFB84A4F1CE9A66000AA926A /* String+Localized.swift */,
+				783302271D0EAB24000A8978 /* String+Base64.swift */,
+				783302291D0EAB64000A8978 /* String+Manipulation.swift */,
 			);
 			path = SwiftUtils;
 			sourceTree = "<group>";
@@ -93,6 +106,8 @@
 			children = (
 				AFCC7BA51CE0EBAE00854013 /* Info.plist */,
 				AFCC7BB41CE0ECC400854013 /* NSDateComponents+ISO8601-Tests.swift */,
+				78379F341D098BFD0072C59D /* String+ManipulationTests.swift */,
+				78EE97D71D10361D00581D55 /* String+Base64Tests.swift */,
 			);
 			path = SwiftUtilsTests;
 			sourceTree = "<group>";
@@ -205,7 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7833022A1D0EAB64000A8978 /* String+Manipulation.swift in Sources */,
 				AFB84A501CE9A66000AA926A /* String+Localized.swift in Sources */,
+				783302281D0EAB24000A8978 /* String+Base64.swift in Sources */,
 				AFCC7BAF1CE0EBEB00854013 /* NSDateComponents+ISO8601.swift in Sources */,
 				AFCC7BB21CE0EC0800854013 /* NSScanner.swift in Sources */,
 			);
@@ -217,7 +234,12 @@
 			files = (
 				AFCC7BB31CE0EC0800854013 /* NSScanner.swift in Sources */,
 				AFCC7BB61CE0ECC400854013 /* NSDateComponents+ISO8601-Tests.swift in Sources */,
+				78379F351D098BFD0072C59D /* String+ManipulationTests.swift in Sources */,
 				AFCC7BB01CE0EBEB00854013 /* NSDateComponents+ISO8601.swift in Sources */,
+				78379F361D098C1A0072C59D /* String+Localized.swift in Sources */,
+				78EE97D91D1036CB00581D55 /* String+Base64.swift in Sources */,
+				7833022B1D0EABC0000A8978 /* String+Manipulation.swift in Sources */,
+				78EE97D81D10361D00581D55 /* String+Base64Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

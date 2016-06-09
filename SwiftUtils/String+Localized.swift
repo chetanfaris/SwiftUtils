@@ -14,5 +14,4 @@ extension String {
         // TODO: Write unit tests for this
         return NSLocalizedString(self, comment: comment)
     }
-
 }
